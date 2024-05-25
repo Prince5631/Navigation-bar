@@ -6,52 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav Bar</title>
     <style>
-        body{
+        body {
             margin: 0px;
+            padding: 0px;
         }
-        nav{
-            text-align: right;
+
+        nav {
+            background-color: rgb(227, 231, 222);
+            border-style: groove;
             font-size: 24px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            padding: 14px;
-           margin:auto;
+            text-align: center;
         }
-       li{
-        display: inline flex ;
-        list-style: none;
-        cursor: pointer;
-       }
-       ul{
-        word-spacing: 15px;
-       }
-       .main{
-        font-size: 46px;
-        position: relative;
-        right: 200px;
-        color: rgb(151, 14, 151);
-        cursor:auto;
-       }
-       button{
-        color: white;
-        background-color: purple;
-        border: none;
-        font-size: 23px;
-        border-radius: 10px;
-        font-weight: bolder;
-        cursor: pointer;
-       }
-       .h{
-        position: relative;
-        right: 22px;
-       }
-       button:hover{
-        box-shadow: 5px 5px 10px rgb(210, 6, 218);
-       }
-      .content:hover{
-        text-shadow: 5px 5px 10px rgb(0, 204, 255);
-      }
-      
-     
+
+        li {
+            display: inline;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        ul {
+            word-spacing: 10px;
+        }
+
+        .main {
+            font-size: 46px;
+            position: relative;
+            right: 60px;
+            color: rgb(151, 14, 151);
+            cursor: auto;
+            text-shadow: 4px 4px 12px;
+        }
+
+        button {
+            color: white;
+            background-color: purple;
+            border: groove;
+            font-size: 23px;
+            border-radius: 10px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .h {
+            position: relative;
+            right: 22px;
+        }
+
+        button:hover {
+            box-shadow: 5px 5px 10px rgb(210, 6, 218);
+        }
+
+        .content:hover {
+            text-shadow: 5px 5px 10px rgb(0, 204, 255);
+        }
     </style>
 </head>
 
@@ -59,7 +67,7 @@
     <nav>
         <ul>
             <li class="main">CodeWithPrince</li>
-            <li  class="content">Home</li>
+            <li class="content">Home</li>
             <li class="content">Courses</li>
             <li class="content">Notes</li>
             <li class="content">Youtube</li>
@@ -67,12 +75,15 @@
             <li class="content">Blogs</li>
             <li class="content">Help</li>
             <li class="content">Contact</li>
-         
-           <button>Logout</button>
+
+            <button>Logout</button>
         </ul>
-         
+
     </nav>
-    
+    <span>hi
+        
+    </span>
+
 </body>
 
 </html>
