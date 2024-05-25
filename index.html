@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        nav{
+            text-align: right;
+            font-size: 24px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 14px;
+           margin:auto;
+          position: sticky;
+        }
+       li{
+        display: inline flex ;
+        list-style: none;
+        cursor: pointer;
+       }
+       ul{
+        word-spacing: 15px;
+       }
+       .main{
+        font-size: 46px;
+        position: relative;
+        right: 200px;
+        color: purple;
+        cursor:auto;
+       }
+       button{
+        color: white;
+        background-color: purple;
+        border: none;
+        font-size: 23px;
+        border-radius: 10px;
+        font-weight: bolder;
+        cursor: pointer;
+       }
+       .h{
+        position: relative;
+        right: 22px;
+       }
+       button:hover{
+        box-shadow: 5px 3px  rgb(70, 67, 67);
+       }
+      .content:hover{
+        text-shadow: 2px 2px rgb(179, 179, 194);
+      }
+      
+     
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="main">CodeWithPrince</li>
+            <li  class="content">Home</li>
+            <li class="content">Courses</li>
+            <li class="content">Notes</li>
+            <li class="content">Youtube</li>
+            <li class="content">Tutorials</li>
+            <li class="content">Blogs</li>
+            <li class="content">Help</li>
+            <li class="content">Contact</li>
+         
+           <button>Logout</button>
+        </ul>
+         
+    </nav>
+    
+</body>
+
+</html>
